@@ -1,11 +1,13 @@
 /*header*/
+body{
 
-.site-header{
+}
+header{
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     text-align:center;
     color: black;
-    max-width: max-content;
+    width: max-content ;
   
 }
 
@@ -62,30 +64,40 @@
 
 /*tarjetas*/
 
-.cards {
-	display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20%, 2fr));
+.cards--grid {
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 4fr;
     gap: 20px;
+  }
+
+.cards {
+
     background-color: #fff;
     box-shadow: 0 0 4rem rgba(0, 0, 0, .1);
     border-radius: 1rem;
-}
-.cards article {
-	position:relative;
-	width: 3fr;
-	padding-top: 30px;
-	
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(101,9,121,0.1407913507199755) 99%, rgba(251,251,251,1) 100%);
+    
 }
 
-.content{
-    font-size: 30px;
+
+.card-content{
+    margin-top: 2%;
+    font-size: 25px;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-weight: 300;
+    padding: 40px;
     
 }
 
 #h2{
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-weight: 600;     
+}
+
+.reproductor{
+    padding: 40px;
 }
