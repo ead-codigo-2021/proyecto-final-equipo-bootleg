@@ -1,20 +1,24 @@
 /*header*/
 body{
-
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
 }
 header{
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     text-align:center;
-    color: black;
+    color: rgb(252, 252, 252);
     width: max-content ;
+    border-radius: 1rem;
   
 }
 
 
 .site-navigation {
 
-   background-color: rgb(0, 0, 0);
+   background-color: rgb(255, 255, 255);
    padding: 10px;
    max-width: max-content;
    height: 40px;
@@ -70,6 +74,7 @@ header{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 4fr;
     gap: 20px;
+    align-content: center;
   }
 
 .cards {
@@ -84,12 +89,11 @@ header{
 
 
 .card-content{
-    margin-top: 2%;
     font-size: 25px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    padding: 40px;
-    
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 #h2{
