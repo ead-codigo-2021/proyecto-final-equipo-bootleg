@@ -274,6 +274,7 @@ hr {
     margin: 20px;
     text-align: center;
     
+    
 }
 
 
@@ -315,9 +316,10 @@ p{
     height: 430px;
     display: flex;
     flex-wrap:wrap;
-    margin-bottom: 150px;
+    margin-bottom: 250px;
     gap: 80px;
     align-items: center;
+    
     
 }
 
@@ -473,4 +475,24 @@ p{
   
   
 
+}
+
+/*boton fome*/
+
+.button-2 a {
+  
+  display:inline-block;
+  color:black;
+  font-family:'Montserrat';
+  padding:10px 20px;
+  font-size:24px;
+  font-weight:bold;
+  transition: 400ms ease;
+  
+}
+
+.button-2 a:hover {
+  color:#4500f6;
+  
+  
 }
