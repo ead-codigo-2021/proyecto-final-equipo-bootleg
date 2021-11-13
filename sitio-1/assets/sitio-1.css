@@ -252,6 +252,26 @@ hr {
   
 }
 
+/*boton 2*/
+
+.button-2 a {
+  
+  display:inline-block;
+  color:black;
+  font-family:'Montserrat';
+  padding:10px 20px;
+  font-size:24px;
+  font-weight:bold;
+  transition: 400ms ease;
+  
+}
+
+.button-2 a:hover {
+  color:#4500f6;
+  
+  
+}
+
 /*tarjetas*/
 
 .cards--grid {
@@ -477,22 +497,3 @@ p{
 
 }
 
-/*boton fome*/
-
-.button-2 a {
-  
-  display:inline-block;
-  color:black;
-  font-family:'Montserrat';
-  padding:10px 20px;
-  font-size:24px;
-  font-weight:bold;
-  transition: 400ms ease;
-  
-}
-
-.button-2 a:hover {
-  color:#4500f6;
-  
-  
-}
