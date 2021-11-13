@@ -12,61 +12,145 @@
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;800&display=swap" rel="stylesheet">
 </head>
 <body>
-
-<header class = "site-header">  
-     
-		<nav class = "site-navigation">
-		 <div class="site-navigation--menu">
-			<div class="elemento"> <a href="index.html"> Inicio</a></div>
-			<div class="elemento"> <a href="/noticias"> Noticias</a></div>
-			<div class="elemento"> <a href="/sobrenosotros"> Bootleg </a></div>
-			<div class="elemento"> <a href="/ayuda"> Ayuda</a></div>
-			   
-		</div>
-		 </nav>
-		 </div>
-
-
-</header>
-<div class="card cards--grid">
 	
+	<ul class="menu" data-animation="center">
+		<li>
+		  <a href="index.html">
+			Inicio
+		  </a>
+		</li>
+		<li>
+		  <a href="/noticias">
+			Noticias
+		  </a>
+		</li>
+		<li>
+		  <a href="/sobrenosotros">
+			Bootleg
+		  </a>
+		</li>
+		<li>
+		  <a href="/ayuda">
+			Ayuda
+		  </a>
+		</li>
+	  </ul>
+	  <hr>
+
+
+
+	  <article>
+		<div class="slide">
+			<div class="slide-inner">
+				<input class="slide-open" type="radio" id="slide-1" name="slide" aria-hidden="true" hidden="" checked="checked">
+				<div class="slide-item">
+					<img src="assets/imagenes/IMAGENES CARRUSEL.jpg">
+				</div>
+				<input class="slide-open" type="radio" id="slide-2" name="slide" aria-hidden="true" hidden="">
+				<div class="slide-item">
+					<img src="assets/imagenes/The-police.jpg">
+				</div>
+				<input class="slide-open" type="radio" id="slide-3" name="slide" aria-hidden="true" hidden="">
+				<div class="slide-item">
+					<img src="assets/imagenes/Goony-chonga.jpg">
+				</div>
+				<label for="slide-3" class="slide-control prev control-1">‹</label>
+				<label for="slide-2" class="slide-control next control-1">›</label>
+				<label for="slide-1" class="slide-control prev control-2">‹</label>
+				<label for="slide-3" class="slide-control next control-2">›</label>
+				<label for="slide-2" class="slide-control prev control-3">‹</label>
+				<label for="slide-1" class="slide-control next control-3">›</label>
+				<ol class="slide-indicador">
+					<li>
+						<label for="slide-1" class="slide-circulo">•</label>
+					</li>
+					<li>
+						<label for="slide-2" class="slide-circulo">•</label>
+					</li>
+					<li>
+						<label for="slide-3" class="slide-circulo">•</label>
+					</li>
+				</ol>
+			</div>
+		</div>
+	
+	</article>
+<!--Aqui termina-->
+	<div class="card cards--grid">
+		
 		<article class="cards">
 			<div class="reproductor">
-		<iframe style="border: 0; width: 350px; height: 470px;"
-		src="https://bandcamp.com/EmbeddedPlayer/album=1948077361/size=large/bgcol=ffffff/linkcol=333333/tracklist=false/transparent=true/" 
-		seamless><a href="https://menitrust.bandcamp.com/album/untourable-album">Untourable Album by Men I Trust</a></iframe>
+				<iframe style="border: 0; width: 350px; height: 470px;"
+				src="https://bandcamp.com/EmbeddedPlayer/album=1948077361/size=large/bgcol=ffffff/linkcol=333333/tracklist=false/transparent=true/" 
+				seamless><a href="https://menitrust.bandcamp.com/album/untourable-album">Untourable Album by Men I Trust</a></iframe>
 			</div>
-				<div class="card-content">
-					<h2>Men I Trust</h2>
-					<p>Untourable Album (2021)</p>
-				</div>
+			<div class="card-content">
+				<h2>Men I Trust</h2>
+				<p>Untourable Album (2021)</p>
+			</div>
 			
 		</article>
-     
+		
 		<article class="cards">
 			<div class="reproductor">
-			<iframe style="border: 25px; width: 350px; height: 470px;" 
-			src="https://bandcamp.com/EmbeddedPlayer/album=4143817245/size=large/bgcol=ffffff/linkcol=333333/tracklist=false/transparent=true/" 
-			seamless><a href="https://sandy.bandcamp.com/album/trick">TRICK by Alex G</a></iframe>
+				<iframe style="border: 25px; width: 350px; height: 470px;" 
+				src="https://bandcamp.com/EmbeddedPlayer/album=4143817245/size=large/bgcol=ffffff/linkcol=333333/tracklist=false/transparent=true/" 
+				seamless><a href="https://sandy.bandcamp.com/album/trick">TRICK by Alex G</a></iframe>
 			</div>	
-				<div class="card-content">
-					<h2>Alex G</h2>
-					<p>Trick (2012)</p>
-				</div>
+			<div class="card-content">
+				<h2>Alex G</h2>
+				<p>Trick (2012)</p>
+			</div>
 		</article>			
-
+		
 		<article class="cards">
 			<div class="reproductor">
-			<iframe style="border: 25px; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=3002869071/size=large/bgcol=ffffff/linkcol=333333/tracklist=false/transparent=true/" 
-			seamless><a href="https://grouper.bandcamp.com/album/a-i-a-alien-observer">A I A : Alien Observer by Grouper</a></iframe>
+				<iframe style="border: 25px; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=3002869071/size=large/bgcol=ffffff/linkcol=333333/tracklist=false/transparent=true/" 
+				seamless><a href="https://grouper.bandcamp.com/album/a-i-a-alien-observer">A I A : Alien Observer by Grouper</a></iframe>
 			</div>		
-				<div class="card-content">
-					<h2>Grouper</h2>
-					<p>Alien Observer (2017))</p>
-				</div>
+			<div class="card-content">
+				<h2>Grouper</h2>
+				<p>Alien Observer (2017))</p>
+			</div>
 		</article>
+		</div>
 
-	
+<!--Footer-->
+<div class="footer-dark">
+	<footer>
+		
+		<div class="container-grid">
+		<div class="container">
+			<div class="row">
+				<div class="menu-footer">
+					<h3>Servicios</h3>
+					<ul>
+						<li><a href="#">Ayuda al cliente</a></li>
+						<li><a href="#">Politicas</a></li>
+						<li><a href="#">Artistas</a></li>
+					</ul>
+				</div>
+				<div class="menu-footer">
+					<h3>Nosotros</h3>
+					<ul>
+						<li><a href="#">Visión</a></li>
+						<li><a href="#">Equipo</a></li>
+						<li><a href="#">Proyecto</a></li>
+					</ul>
+				</div>
+				<div class="col-md-6 item text">
+					<h3>Bootleg team</h3>
+					<p>Cualquier duda no dudes en contactar con nuestro servicio al cliente </p>
+				</div>
+				<div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+			</div>
+			<p class="copyright">Bootleg Team © 2021</p>
+		</div>
+		</div>
+	</footer>
 </div>
-</body>
+
+
+
+	</body>
 </html>
