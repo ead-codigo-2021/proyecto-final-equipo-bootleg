@@ -124,7 +124,7 @@ hr {
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: calc( 350px + 1em);
+  height: calc( 350px + 3em);
 }
 
 .slide-open:checked + .slide-item {
@@ -249,26 +249,6 @@ hr {
 .button:hover {
   color:white;
   background:#4500f6;
-  
-}
-
-/*boton 2*/
-
-.button-2 a {
-  
-  display:inline-block;
-  color:black;
-  font-family:'Montserrat';
-  padding:10px 20px;
-  font-size:24px;
-  font-weight:bold;
-  transition: 400ms ease;
-  
-}
-
-.button-2 a:hover {
-  color:#4500f6;
-  
   
 }
 
@@ -497,3 +477,22 @@ p{
 
 }
 
+/*boton fome*/
+
+.button-2 a {
+  
+  display:inline-block;
+  color:black;
+  font-family:'Montserrat';
+  padding:10px 20px;
+  font-size:24px;
+  font-weight:bold;
+  transition: 400ms ease;
+  
+}
+
+.button-2 a:hover {
+  color:#4500f6;
+  
+  
+}
