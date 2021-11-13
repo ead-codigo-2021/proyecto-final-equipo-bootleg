@@ -261,7 +261,7 @@ hr {
     grid-template-rows: 4fr;
     gap: 10px;
     align-content: center;
-    background-color: whitesmoke;
+    
   }
 
 .cards {
@@ -290,28 +290,35 @@ hr {
 #h2{
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600;     
+    font-weight: 600;   
+    padding-top: 10px;  
 }
 
 .reproductor{
-  padding:40px
+  padding:20px;
 }
 
 p{
   padding-bottom: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 2;
 }
 
 
 /*tarjeta blanca*/
 
 .container-card-2{
+  margin: auto;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1000px;
     height: 430px;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
     margin-bottom: 150px;
-    gap: 90px;
+    gap: 80px;
+    align-items: center;
+    
 }
 
 .container-card-2 .card-2{
@@ -362,8 +369,9 @@ p{
 /*footer*/
 
 .footer-dark {
+  
   margin-top:5%;
-  padding:50px 50px;
+  padding:60px 60px;
   color:black;
   background: rgb(255,255,255);
   background: linear-gradient(149deg, rgba(255,255,255,1) 0%, rgba(232,199,251,1) 53%, rgba(195,104,255,1) 100%);
@@ -466,5 +474,3 @@ p{
   
 
 }
-  
-  
