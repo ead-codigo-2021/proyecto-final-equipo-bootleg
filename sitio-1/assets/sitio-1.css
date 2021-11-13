@@ -124,7 +124,7 @@ hr {
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: calc( 350px + 3em);
+  height: calc( 350px + 1em);
 }
 
 .slide-open:checked + .slide-item {
