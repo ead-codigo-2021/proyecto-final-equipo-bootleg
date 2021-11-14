@@ -124,7 +124,7 @@ hr {
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: calc( 350px + 3em);
+  height: calc( 350px);
 }
 
 .slide-open:checked + .slide-item {
@@ -261,6 +261,7 @@ hr {
     grid-template-rows: 4fr;
     gap: 10px;
     align-content: center;
+    margin-bottom: 80px;
     
   }
 
@@ -316,7 +317,7 @@ p{
     height: 430px;
     display: flex;
     flex-wrap:wrap;
-    margin-bottom: 250px;
+    margin-bottom: 160px;
     gap: 80px;
     align-items: center;
     
@@ -332,7 +333,7 @@ p{
     padding:10px;
     text-align: center;
     transition: all 0.25s;
-  padding:20,5px;
+    padding:20,5px;
 }
 
 .container-card-2 .card-2:hover{
