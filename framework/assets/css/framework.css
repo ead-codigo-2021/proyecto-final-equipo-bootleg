@@ -14,7 +14,7 @@
   
   body {
     margin: 30px 0;
-    font: 22px montserrat;
+    font: 22px 'montserrat';
     background: var(--body-bg-color);
     color: var(--text-color);
   }
