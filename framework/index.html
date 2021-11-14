@@ -9,11 +9,44 @@
 	<link rel="stylesheet" href="assets/css/docs.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;@300;500;800&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+
 </head>
 <body>
 	
-	<ul class="menu" data-animation="center">
+<div class="container-titulo">
+	<div class="texto-titulo">
+    <p class="titulo-pagina">Repositorio Frameworks</p>
+	<p class="intro">En esta página se encuentran los elementos diseñados por nuestro equipo y que conforman las estructuras de los otros
+	sitios web, el primero se trata de una pagina online de musica (sitio 1) y el segundo es sobre el portafolio de un artista que expone sus obras (sitio 2).
+	</p>
+	<div class="Boton-sitio"><a href="https://ead-codigo-2021.github.io/proyecto-final-equipo-bootleg/sitio-1/index"> Sitio 1 </a> </div>
+	<div class="Boton-sitio"><a href="https://ead-codigo-2021.github.io/proyecto-final-equipo-bootleg/sitio-2/index"> Sitio 2 </a> </div>
+</div>
+</div>
+
+	<div class="container-grilla">
+
+		<!-- Header -->
+	<div class="container-header">
+<p class="titulos">Header</p>    
+	<p class="texto">Este elemento es para ser usado como encabezado de la pagina, donde se presentaria el nombre del proyecto. </p>
+		<header>
+        <div class="header-wrapper">
+        <h1>B O O T L E G</h1>
+</div> 
+</header>
+</div>
+
+<!--menu-->
+<div class="container-menu">
+<p class="titulos">Menu</p>    
+<p class="texto">La gracia de este menu es su elegancia, simpleza y versatilidad para uso de cualquier sitio con cualquier tipo de contenido. 
+	Un detalle es su hoover en degradado y movimiento expansivo horizontal.</p>
+<ul class="menu" data-animation="center">
 		<li>
 		  <a href="index.html">
 			Inicio
@@ -36,10 +69,15 @@
 		</li>
 	  </ul>
 	  <hr>
+	  </div>
 
-<!--Carrusel-->
 
-	  <article>
+<!-- Carrusel-->
+<div class="container-carrusel">
+    <article>
+		<p class="titulos">Carrusel</p>    
+		<p class="texto">Tenemos este tipo de carrusel que responde al tiempo del usuario ya que no cuenta con temporizador propio 
+			sino que responde a la acción del botón y al tiempo de lectura propio. </p>
 		<div class="slide">
 			<div class="slide-inner">
 				<input class="slide-open" type="radio" id="slide-1" name="slide" aria-hidden="true" hidden="" checked="checked">
@@ -75,47 +113,67 @@
 		</div>
 	
 	</article>
-<!--Aqui termina-->
-	<div class="card cards--grid">
-		
-		<article class="cards">
-			<div class="reproductor">
-				<iframe style="border: 0; width: 350px; height: 470px;"
-				src="https://bandcamp.com/EmbeddedPlayer/album=1948077361/size=large/bgcol=ffffff/linkcol=333333/tracklist=false/transparent=true/" 
-				seamless><a href="https://menitrust.bandcamp.com/album/untourable-album">Untourable Album by Men I Trust</a></iframe>
-			</div>
-			<div class="card-content">
-				<h2>Men I Trust</h2>
-				<p>Untourable Album (2021)</p>
-			</div>
-			
-		</article>
-		
-		<article class="cards">
-			<div class="reproductor">
-				<iframe style="border: 25px; width: 350px; height: 470px;" 
-				src="https://bandcamp.com/EmbeddedPlayer/album=4143817245/size=large/bgcol=ffffff/linkcol=333333/tracklist=false/transparent=true/" 
-				seamless><a href="https://sandy.bandcamp.com/album/trick">TRICK by Alex G</a></iframe>
-			</div>	
-			<div class="card-content">
-				<h2>Alex G</h2>
-				<p>Trick (2012)</p>
-			</div>
-		</article>			
-		
-		<article class="cards">
-			<div class="reproductor">
-				<iframe style="border: 25px; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=3002869071/size=large/bgcol=ffffff/linkcol=333333/tracklist=false/transparent=true/" 
-				seamless><a href="https://grouper.bandcamp.com/album/a-i-a-alien-observer">A I A : Alien Observer by Grouper</a></iframe>
-			</div>		
-			<div class="card-content">
-				<h2>Grouper</h2>
-				<p>Alien Observer (2017))</p>
-			</div>
-		</article>
-		</div>
+</div>
 
-<!--Footer-->
+
+	
+<!-- tarjetas blancas -->
+
+<div class="container-tarjeta-blanca">
+        <p class="titulos">Tarjeta Blancas </p> 
+		<p class="texto"> Una tarjeta sencilla y adaptable a su contenido, es amigable a la vista y es combinable facilmente con otros elementos
+			Especial para destacar información no esencial.</p>   
+		<div class="card">
+            <img src="https://64.media.tumblr.com/54e050b37067fd8fdfbed1d6280ed9a7/tumblr_nt6dbo4V1Z1sorrnlo1_500.jpg">
+            <h4>Ejemplo de Tarjeta</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
+            <a href="#">Leer más</a>
+        </div>
+</div>
+
+	
+<!--- tarjetas artista--->
+<div class="tarjeta-artista-grilla">
+            <p class="titulos">Tarjeta con reproductor</p>    
+			<p class="texto">Dado que este es una pagina de musica, estas tarjetas fueron diseñadas para combinarse con un reproductor
+				de musica que permite escuchar la canción seleccionada. De estilo moderno pero sin dejar de ser elegante.
+			</p>
+			<article class="cards">
+		<div class="reproductor">
+			<iframe style="border: 0; width: 200px; height: 200px;" 
+			src="https://bandcamp.com/EmbeddedPlayer/album=2191729692/size=large/bgcol=ffffff/linkcol=333333/minimal=true/track=715962990/transparent=true/" 
+			seamless><a href="https://grimesmusic.bandcamp.com/album/geidi-primes">Geidi Primes by Grimes</a></iframe>
+		</div>
+		<div class="card-content">
+			<h2>Grimes</h2>
+			<p>Geidi Primes (2011)</p>
+			<div class="button"><a href="https://grimesmusic.bandcamp.com/">Ir al artista</a></div>
+		</div>
+		
+	</article>
+</div>
+
+<div class="boton-grid">
+<p class="titulos">Botón 1</p>
+<p class="texto">Botón llamativo que busca atraer la atención y ser usado de forma principal para lograr la acción del usuario.</p>
+<div class="button"><a href="https://grimesmusic.bandcamp.com/">Ir al artista</a></div>
+		
+	<p class="titulos">Botón 2</p>
+	<p class="texto">Botón simple usado para formar parte de un elemento mayor y este solo ser un detalle dentro del conjunto con un simple hoover
+		que diferencia sus estados.</p>
+	<div class="button2">
+        <a href="#">Inicio</a>
+        <a href="#">Buscar</a>
+        </div>
+	</div>
+
+		<!--Footer-->
+<div class="footer-container">
+<p class="titulos">Footer</p>    
+<p class="texto"> Footer sencillo dividido en secciones para poder organizar subdivisiones de la información
+	requerida, otra de sus gracias es el contar ya con iconos de redes sociales ya que estos se encuentran en linea
+	como un recurso gratuito de usar.
+</p>
 <div class="footer-dark">
 	<footer>
 		
@@ -139,7 +197,6 @@
 					</ul>
 				</div>
 				<div class="col-md-6 item text">
-					<h3>Bootleg team</h3>
 					<p>Cualquier duda no dudes en contactar con nuestro servicio al cliente </p>
 				</div>
 				<div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
@@ -150,7 +207,7 @@
 	</footer>
 </div>
 
-
-
+</div>
+</div>
 	</body>
 </html>
