@@ -8,6 +8,11 @@ body {
   
 }
 
+h2{
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
 /*header*/
 
 header{
@@ -54,6 +59,7 @@ ul {
 a {
   color: inherit;
   text-decoration: none;
+  font-weight: 500;
 }
 
 
@@ -64,6 +70,8 @@ hr {
 }
 
 .menu {
+  margin-top: 20px;
+  margin-bottom: 40px;
   display: flex;
   justify-content: center;
 }
@@ -96,9 +104,6 @@ hr {
   transform: scaleX(1);
 }
 
-
-/* ANIMATIONS
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .menu[data-animation="center"] a::before {
   transform-origin: center;
@@ -229,7 +234,11 @@ hr {
   font-family: 'Open Sans', sans-serif;
   z-index: 9999;
   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
+
 }
+
+
+
 /*botones*/
 
 .button {
@@ -252,7 +261,10 @@ hr {
   
 }
 
-/*tarjetas*/
+
+
+/*tarjetas moradas*/
+
 
 .cards--grid {
     margin-top: 30px;
@@ -289,8 +301,8 @@ hr {
     
 }
 
-#h2{
-    font-size: 20px;
+#h3{
+    font-size: 25px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;   
     padding-top: 10px;  
@@ -301,6 +313,7 @@ hr {
 }
 
 p{
+  
   padding-bottom: 15px;
   font-size: 16px;
   font-weight: 400;
@@ -308,7 +321,7 @@ p{
 }
 
 
-/*tarjeta blanca*/
+/*tarjetas blancas*/
 
 .container-card-2{
   margin: auto;
@@ -478,7 +491,7 @@ p{
 
 }
 
-/*boton fome*/
+/*boton 2*/
 
 .button-2 a {
   
