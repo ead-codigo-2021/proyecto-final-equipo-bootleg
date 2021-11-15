@@ -844,4 +844,9 @@ h5 {
     gap: 10px;
     
     } 
+      
+  .footer-dark {
+    display: none;
+  }   
+      
   }
