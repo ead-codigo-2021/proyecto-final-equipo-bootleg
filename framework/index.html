@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Documentación del Framework</title>
     <link rel="stylesheet" href="assets/css/framework.css">
-    <link rel="stylesheet" href="assets/css/docs.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;@300;500;800&display=swap" rel="stylesheet">
@@ -39,6 +38,7 @@
     <li><a href="#tarjeta3">Tarjeta 3</a></li>
     <li><a href="#boton1">Botón 1</a></li>
     <li><a href="#boton2">Botón 2</a></li>
+    <li><a href="#busqueda">Barra de búsqueda</a></li>
     <li><a href="#footer">Footer</a></li>
     
 </ol>
@@ -49,7 +49,9 @@
             <a name="header">   
             <p class="titulos">Header</p>
                
-            <p class="texto">Este elemento es para ser usado como encabezado de la pagina, donde se presentaria el nombre del proyecto. </p>
+            <p class="texto">Este elemento es para ser usado como encabezado de la pagina,
+                 donde se presentaria únicamente el nombre del proyecto de manera minimalista, prestando de esta manera
+                 más atención al resto de los complementos. Sin embargo es aireado y elegante. </p>
            <!-- Complemento Header--> 
             <header>
                 <div class="header-wrapper">
@@ -144,7 +146,7 @@
                 
         <div class="container-tarjeta-blanca">
             <a name="tarjeta1">  
-            <p class="titulos">Tarjeta Blancas </p> 
+            <p class="titulos">Tarjeta Blanca </p> 
             <p class="texto"> Una tarjeta sencilla y adaptable a su contenido, es amigable a la vista y es combinable facilmente con otros elementos
                 Especial para destacar información no esencial.</p>  
                 <!-- Complemento Tarjeta 1--> 
@@ -226,8 +228,25 @@
                 <a href="#">Buscar</a>
             </div>
         </div>
-    
-                            
+
+        <!--- barra de búsqueda ---> 
+        <div class="search-grid">
+            <a name="busqueda"> 
+            <p class="titulos">Barra de búsqueda</p>
+            <p class="texto">Barra simple que se utiliza para buscar dentro de la misma página. Se pensó en relación al caracter
+                de galería y difusión que poseen ambos sitios</p>
+
+            <div class="wrap-search">
+                <div class="search">
+                    <input type="text" class="searchTerm" placeholder="busqueda">
+                    <button type="submit" class="searchButton">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+        </div>  
+        
+        
         <!---Footer--->
         <div class="footer-container">
             <a name="footer">
