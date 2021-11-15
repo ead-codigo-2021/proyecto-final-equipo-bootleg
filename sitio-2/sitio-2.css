@@ -230,14 +230,6 @@ body {
 
 }
 
-body{
-    width: 100%;
-    height: 100%;
-    font-family: 'roboto', sans-serif;
-    letter-spacing: 0.03em;
-    line-height: 1.6;
-    font-family: 'Open Sans', sans-serif;
-}
 
 
 
@@ -249,6 +241,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
+    margin-bottom: 200px;
 }
 
 .container .card{
@@ -261,6 +254,8 @@ body{
     text-align: center;
     transition: all 0.25s;
   padding:20px;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
 }
 
 .container .card:hover{
