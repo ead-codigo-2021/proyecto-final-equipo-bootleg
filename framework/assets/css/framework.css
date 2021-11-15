@@ -276,9 +276,7 @@ p.texto{
   transform: scaleX(1);
   }
   
-  
-  /* ANIMATIONS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+ 
   
   .menu[data-animation="center"] a::before {
   transform-origin: center;
